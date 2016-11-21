@@ -1,0 +1,56 @@
+/*set background color to black */
+body
+{  
+  background-color: #000000;
+}
+
+/*set display property of headings and sound bar to be hidden */
+.hidden 
+{
+display:none;
+}
+
+/*set common properties of some elements together following DRY code */
+.christmas, .fire, .santa, .christmastree
+{
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+/*set properties for merry christmas written image */
+.christmas 
+{
+  top: 0%;
+  left:0%;  
+}
+
+/*set properties for fireworks image */
+.fire
+ {
+  top: 0%;
+  left:50%;  
+}
+
+
+/*set properties for animation container */
+.santa{
+  
+  width: 150px;  height:150px;  
+  overflow:hidden;
+ 
+  top: 90%;
+  left:10%;
+  margin: -100px 0 0 -150px;
+
+ /*set properties for merry christmas tree image */ 
+}
+.christmastree {
+  
+  top: 30%;
+  right:10%;  
+  
+  
+}
+
+
